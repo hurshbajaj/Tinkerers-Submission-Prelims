@@ -1,0 +1,38 @@
+.inpHolder{
+    margin-bottom: 0px;
+}
+.logInOpts{
+    margin-left: 30px;
+
+    font-size: 35px;
+
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+    margin-top: 0px;
+    color: #2E353C;
+    
+    
+}
+.bx{
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+
+    padding: 5px;
+
+    transition: all 200ms;
+    
+}
+.bx:hover{
+    cursor: pointer;
+
+    transform: translateY(-5px);
+
+    background-color: #2E353C;
+    color: white;
+}
+.btnHolder{
+    margin-top: 50px;
+}
