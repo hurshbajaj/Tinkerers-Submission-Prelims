@@ -31,6 +31,10 @@ body{
 
     border-radius: 6px;
 }
+
+.top2:hover{
+    transform: translate(0,0);
+}
 .recurseElement{
     
     background-color: #2E353C;
@@ -44,6 +48,9 @@ body{
 
     color: #67558C;
     font-weight: bold;
+}
+.top2{
+    height: 46px;
 }
 .card{
     position: absolute;
@@ -160,8 +167,9 @@ button{
     font-size: 14px;
 
     letter-spacing: 0.5px;
-    background-color: #8471ac;
-    color: #665589;
+    background-color: #836fae;
+
+    color: #554277;
 
     border-radius: 7px;
     transition: all 300ms;
@@ -171,19 +179,21 @@ button{
     width: 92%;
     display: flex;
     justify-content: space-between;
+
+    margin-top: 130px;
 }
 .btn2{
     background-color: greenyellow;
-    color: rgb(143, 212, 39);
+    color: rgb(119, 177, 32);
 }
 .about{
-    margin-left: 30px;
-
-    width: 30%;
+    margin-left: 31px;
+    margin-top: 40px;
+    width: 32%;
 
     border-radius: 8px;
     transition: width 500ms;
-
+    margin-bottom: 50px;
     height: 30px;
     padding: 10px 0 25px 15px;
 }
@@ -217,5 +227,56 @@ button:hover{
     text-align: center;
 
     cursor: pointer;
+}
+
+.try{
+    margin-left: 30px;
+    padding: 15px;
+
+    background-color: hsl(210, 13%, 15%);
+
+    color: #9072CF;
+    border-radius: 10px;
+
+    width: fit-content;
+    display: inline;
+
+    font-size: 15px;
+}
+.ovr{
+    display: flex;
+    align-items: center;
+}
+.logInOpts{
+    margin-left: 30px;
+
+    font-size: 35px;
+
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+    margin-top: 0px;
+    color: #2E353C;
+    
+    
+}
+.bx{
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+
+    padding: 5px;
+
+    transition: all 200ms;
+    
+}
+.bx:hover{
+    cursor: pointer;
+
+    transform: translateY(-5px);
+
+    background-color: #2E353C;
+    color: white;
 }
 

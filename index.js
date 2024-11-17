@@ -83,3 +83,6 @@ function redirect1(){
 function redirect2(){
     window.location.href = "index3.html"
 }
+function homePg(){
+    window.location.href = "index.html"
+}
