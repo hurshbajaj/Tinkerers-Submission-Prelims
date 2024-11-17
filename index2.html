@@ -10,7 +10,7 @@
 <body>
     <div class="header">
         <div class="header1"></div>
-        <p class="recurseElement">V</p>
+        <p class="recurseElement"><a href="index.html">V</a></p>
     </div>
     <div class="card">
         <p class="heading">Infrastructure</p>
@@ -51,20 +51,23 @@
 
 
 
-    <div class="main">
+    <div class="main_">
+        
+        <form class="main"action="">
         <div class="mainHeading">Sign Up</div>
-
         <div class="inpHolder">
-            <input type="text" placeholder="Gmail">
-            <input type="text" placeholder="Password">
+            <input type="email" placeholder="Gmail" required>
+            <input type="password" placeholder="Password" required>
         </div>
 
         <textarea class="about" type="text" placeholder="About Yourself"></textarea>
 
         <div class="btnHolder">
-            <button class="btn1">Log In</button>
+            <button class="btn1" type="submit">Log In</button>
             <button class="btn2">Submit</button>
         </div>
+        </form>
+        
     </div>
     <script src="index.js"></script>
 </body>

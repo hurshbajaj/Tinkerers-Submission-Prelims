@@ -5,6 +5,8 @@ const content1 = document.querySelectorAll(".A")
 const content2 = document.querySelectorAll(".B")
 const content3 = document.querySelectorAll(".C")
 
+const headings = document.querySelectorAll(".heading")
+
 function hideAllContent() {
     content1.forEach(content => content.style.opacity="0");
     content2.forEach(content => content.style.opacity="0");
@@ -40,12 +42,15 @@ function goBack(){
     main[0].style.transform = "translateY(0px)";
 
     hideAllContent()
+    headings[0].style.color = "#554b6f";
+    headings[1].style.color = "#554b6f";
+    headings[2].style.color = "#554b6f";
    
 }
 function goIn(card){
     
-    card.style.backgroundColor = "#997DC9";
-    card.style.opacity = "0.5";
+    card.style.backgroundColor = "#2E353C";
+    headings[Array.from(cards).indexOf(card)].style.color = "#7D7ACF"
     card.style.transform = "translateX(730px)";   
     if(card == cards[1]){
         card.style.transform = "translate(730px, -100px)";   
