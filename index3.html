@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style2.css">
-    <title>SignUp</title>
+    <title>LogIn</title>
+
+    <style>
+        textarea{
+            display: none;
+        }
+        .inpHolder{
+            margin-bottom: 200px;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
@@ -61,16 +70,19 @@
     <div class="main_">
         
         <form class="main"action="">
-        <div class="mainHeading">Sign Up</div>
+        <div class="mainHeading">Log In</div>
         <div class="inpHolder">
             <input type="email" placeholder="Gmail" required>
             <input type="password" placeholder="Password" required>
         </div>
 
-        <textarea class="about" type="text" placeholder="About Yourself"></textarea>
+        <textarea class="about" type="text" placeholder="About Yourself" style="opacity: 0;"></textarea>
 
         <div class="btnHolder">
-            <button onclick="redirect2()"class="btn1" type="button">Log In</button>
+            
+            <button onclick="redirect1()" class="btn1" type="button">Sign In</button>
+            
+            
             <button class="btn2" type="submit">Submit</button>
         </div>
         </form>

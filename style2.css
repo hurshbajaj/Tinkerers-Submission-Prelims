@@ -95,6 +95,7 @@ a{
     top: 160px;
     left: 110px;
     z-index: 50;
+
 }
 .card:nth-child(3){
     top: 230px;
@@ -193,4 +194,27 @@ button{
 button:hover{
     cursor: pointer;
     transform: translateY(-15px);
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+
+    color: #7d7acfb1;
+
+    overflow:hidden;
+}
+.opt{
+    padding: 15px 85px;
+    transition: all 200ms;
+}
+.opt:hover{
+    
+
+    font-weight: bold;
+    text-align: center;
+
+    cursor: pointer;
 }

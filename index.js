@@ -77,3 +77,9 @@ function goIn(card){
     }
     
 }
+function redirect1(){
+    window.location.href = "index2.html"
+}
+function redirect2(){
+    window.location.href = "index3.html"
+}
