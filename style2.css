@@ -218,7 +218,7 @@ button:hover{
     overflow:hidden;
 }
 .opt{
-    padding: 15px 85px;
+    padding: 15px 2%;
     transition: all 200ms;
 }
 .opt:hover{
