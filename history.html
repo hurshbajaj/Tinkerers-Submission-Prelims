@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style2.css">
+    <title>Vision</title>
+
+    <style>
+        .main2{
+            height: 35%;
+            width:90%;
+            
+            left: 75px;
+            top: 52%;
+            color: #373F47;
+            padding-bottom: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            font-size: 150px;
+            
+        }
+        hr{
+            border: none;
+            width: 90%;
+            height: 5px;
+            background-color: #373F47;
+
+            top: 39%;
+            position: fixed;
+
+            z-index: -10;
+        }
+        .eventHolder{
+            width: 92%;
+            position: fixed;
+
+            top: 35%;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .event{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #49545e;
+
+            z-index: 20;
+            position: relative;
+        }
+        .event:hover{
+            cursor: pointer;
+        }
+        .event::before{
+            content: "Event";
+            font-size: 20px;
+
+            position: absolute;
+            top: -30px;
+            right: -14.9px;
+            
+            color: #20252a;
+            font-weight: bold;
+
+            opacity: 0;
+            transition: all 500ms;
+        }
+        .event:hover::before{
+            opacity: 1;
+            transform: translateY(-10px);
+        }
+        .main{
+            padding-bottom: 60px;
+        }
+        .heading__{
+            color: #6e6cb6;
+            font-weight: bold;
+
+            position: fixed;
+            font-size: 140px;
+
+            top: 20%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header1">
+            <p class="opt"><a href="projects.html">Projects</a></p>
+            <p class="opt"><a href="contacts.html">Contacts</a></p>
+            <p class="opt"><a href="explore.html">Explore</a></p>
+            <p class="opt"><a href="Learn.html">Learn</a></p>
+            <p class="opt"><a href="history.html">History</a></p>
+            <p class="opt"><a href="settings.html">Settings</a></p>
+        </div>
+        <button onclick="homePg()"class="recurseElement top2">V</button>
+    </div>
+
+    <div class="main main2">
+        <div class="eventHolder">
+            <div class="event"></div>
+            <div class="event"></div>
+            <div class="event"></div>
+            <div class="event"></div>
+            <div class="event"></div>
+        </div>
+        <hr>
+    </div>
+    
+    
+
+    <p class="heading__">History</p>
+    <script src="index.js"></script>
+</body>
+</html>
