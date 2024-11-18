@@ -114,9 +114,9 @@ button{
     font-size: 14px;
 
     letter-spacing: 0.5px;
-    background-color: #22272D;
+    background-color: #22272dba;
 
-    color: #9072CF;
+    color: #9072cfce;
 
 
     border-radius: 7px;
@@ -130,6 +130,10 @@ a{
 button:hover{
     cursor: pointer;
     transform: translateY(-12px);
+
+    background-color: #22272D;
+
+    color: #9072CF;
 }
 
 @keyframes fade{
