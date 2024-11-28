@@ -50,7 +50,7 @@ function goBack(){
 function goIn(card){
     
     card.style.backgroundColor = "#2E353C";
-    headings[Array.from(cards).indexOf(card)].style.color = "#7D7ACF"
+    setTimeout(()=>{headings[Array.from(cards).indexOf(card)].style.color = "#7D7ACF"}, 300)
     card.style.transform = "translateX(730px)";   
     if(card == cards[1]){
         card.style.transform = "translate(730px, -100px)";   
